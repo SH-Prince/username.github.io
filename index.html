@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Friend — Campaign</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <img src="images/photo.jpg" alt="Candidate photo" class="photo"/>
+      <h1>Friend's Name</h1>
+      <p class="subtitle">Candidate for Ward / Position</p>
+      <a class="cta" href="#contact">Support</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Short friendly bio — who they are, what they stand for. Replace this text with your friend’s bio.</p>
+    </section>
+
+    <section id="issues" class="card">
+      <h2>Priorities</h2>
+      <ul>
+        <li>Priority 1 — short description</li>
+        <li>Priority 2 — short description</li>
+        <li>Priority 3 — short description</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Want to help? Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Or call: (000) 000-0000</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Friend's Name — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // small script to set the current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
